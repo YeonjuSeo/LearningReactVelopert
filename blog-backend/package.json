@@ -5,9 +5,15 @@
   "license": "MIT",
   "dependencies": {
     "eslint-config-prettier": "^8.3.0",
-    "koa": "^2.13.1"
+    "koa": "^2.13.1",
+    "koa-router": "^10.0.0"
   },
   "devDependencies": {
-    "eslint": "^7.32.0"
+    "eslint": "^7.32.0",
+    "nodemon": "^2.0.12"
+  },
+  "scripts": {
+    "start": "node src",
+    "start:dev": "nodemon --watch src/ src/index.js"
   }
 }
